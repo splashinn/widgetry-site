@@ -1,4 +1,5 @@
-# Widgetry-site
+# Widgetry
+- This is the repository for `widgetry.space`
 
 ## Getting Started
 
