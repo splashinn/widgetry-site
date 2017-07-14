@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="ROBOTS" content="NOODP" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
   <%#
     Configure default and controller-, and view-specific titles in
     config/locales/en.yml. For more see:
@@ -13,7 +14,26 @@
   <%= stylesheet_link_tag :application, media: "all" %>
   <%= csrf_meta_tags %>
 </head>
-<body class="<%= body_class %>">
+<nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/">widgetry</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">About</a>
+          </li class="nav-item">
+          <li>
+            <a class="nav-link" href="/">Locations</a>
+          </li>
+          <li>
+            <a class="nav-link" href="/">Contact Us</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+<body class="<%= body_class %> container-fluid">
   <%= render "flashes" -%>
   <%= yield %>
   <%= render "javascript" %>
