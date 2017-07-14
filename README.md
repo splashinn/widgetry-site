@@ -35,3 +35,5 @@ you can deploy to staging and production with:
 
     $ ./bin/deploy staging
     $ ./bin/deploy production
+
+Copyright 2017 (c) widgetry LLC
