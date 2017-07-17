@@ -21,6 +21,7 @@ gem "suspenders"
 gem "title"
 gem "uglifier"
 gem 'bootstrap'
+gem 'rails-assets-tether', '>= 1.1.0'
 gem 'popper_js'
 gem 'high_voltage'
 

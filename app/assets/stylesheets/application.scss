@@ -6,9 +6,24 @@ body {
   background-color: #fcfcfc;
 }
 
+html {
+  width: 100%;
+  height: auto;
+  background-image: url('./images/space-1721679.jpg');
+}
+
 .home-message {
   color: red;
   text-align: center;
+}
+
+.mission {
+  color: grey;
+  text-align: center;
+}
+
+.space-div {
+  margin-top: 50px;
 }
 
 .about-text {
