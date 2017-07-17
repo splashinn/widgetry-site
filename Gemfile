@@ -14,6 +14,7 @@ gem "rack-canonical-host"
 gem "rails", "~> 5.0.0"
 gem "recipient_interceptor"
 gem "sass-rails", "~> 5.0"
+# gem 'bootstrap-sass'
 gem "simple_form"
 gem "skylight"
 gem "sprockets", ">= 3.0.0"

@@ -1,0 +1,53 @@
+/*
+*
+*= require_tree
+*= require_self
+*/
+// @import "bootstrap-sprockets";
+@import "bootstrap";
+
+// @import 'bootstrap';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 75px;
+  // background-color: #fcfcfc;
+}
+
+html {
+  background: url(//pixabay.com/photo-382203/) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-message {
+  color: red;
+  text-align: center;
+}
+
+.mission {
+  color: grey;
+  text-align: center;
+}
+
+.space-div {
+  margin-top: 50px;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #fcfcfc;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
